@@ -1,0 +1,25 @@
+{
+  "name": "my_blog_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Songyanglin-curious/my_blog_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Songyanglin-curious/my_blog_server/issues"
+  },
+  "homepage": "https://github.com/Songyanglin-curious/my_blog_server#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
